@@ -2,7 +2,7 @@
 
     width: 600px;
     height: 200px;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #000000;
     margin: auto;
 }
 
@@ -16,7 +16,7 @@
     top: 150px;
 }
 
-#kaktus {
+#caktus {
     width: 20px;
     height: 40px;
     background-image: url(img/kaktus.png);
@@ -24,7 +24,7 @@
     position: relative;
     top: 110px;
     left: 580px;
-    animation: mov 2s infinite linear;
+    animation: mov 1s infinite linear;
 }
 
 @keyframes mov {
@@ -35,14 +35,10 @@
     100% {
         left: -20px;
     }
-
 }
 
 .jump {
     animation: jump 0.5s infinite linear;
-
-
-
 }
 
 @keyframes jump {
@@ -50,8 +46,12 @@
         top: 150px;
     }
 
+    25% {
+        top: 75px;
+    }
+
     50% {
-        top: 20px;
+        top: 10px;
     }
 
     75% {
